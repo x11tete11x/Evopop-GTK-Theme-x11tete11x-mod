@@ -1,6 +1,6 @@
 pkgname=evopop-gtk-theme-x11tete11x-mod
 _pkgname=evopop-gtk-theme
-pkgver=0.28
+pkgver=0.29
 pkgrel=1
 pkgdesc="A simple, flat and bold Gtk theme for Evolve OS & Budgie Desktop. Iris Dark was used as base. Modded by x11tete11x"
 arch=('any')
@@ -10,8 +10,7 @@ depends=('gtk3>=3.16')
 provides=('evopop-gtk-theme', 'evopop-light-gtk-theme')
 conflicts=('evopop-gtk-theme-x11tete11x-mod')
 source=("${_pkgname}-${pkgver}.tar.gz::https://github.com/solus-project/evopop-gtk-theme/archive/$pkgver.tar.gz")
-sha256sums=('3ec60b86f0075d19c6cb2b8d5fb704408059708d575e3bc70ebbf2101e340aea')
-
+sha256sums=('ff90ae01167d1dc1a23d306b0545a8ef8ec8c44c7df190d57d3da6876069aa43')
 
 build() {
   cd $_pkgname-$pkgver
