@@ -35,4 +35,5 @@ package() {
   sed -i 's/EvoPop/EvoPop-x11tete11x-mod/I' index.theme
   cd ${pkgdir}/usr/share/themes/evopop-gtk-theme-x11tete11x-mod/gtk-2.0
   sed -i 's/#31363d/#2D2D2D/I' gtkrc
+  sed -i 's/#31363D/#2D2D2D/I' gtkrc
 }
